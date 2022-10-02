@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "app-mobile-auth-reactNative-Typescript",
+    "slug": "app-mobile-auth-reactNative-Typescript",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
