@@ -7,11 +7,11 @@ import { SignInScreen } from "../Screens/SignInScreen";
 
 export function AuthStack() {
   return (
-    <Stack.Navigator initialRouteName="home">
+    <Stack.Navigator initialRouteName="Fazer Login">
       <Stack.Screen
         name="Fazer Login"
         component={SignInScreen}
-        options={{ headerTintColor: "green" }}
+        options={{ headerTintColor: "#550aB1", headerTitleAlign: 'center' }}
       />
     </Stack.Navigator>
   );

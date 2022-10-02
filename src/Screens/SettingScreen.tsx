@@ -4,12 +4,10 @@ import { View, Text } from "react-native";
 import { MyButton } from "../components/MyButton";
 import { styles } from "./styles";
 
-export function HomeScreen() {
-  const navigation = useNavigation()
+export function SettingScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Esta tela só pode ser vista por usuários autenticados.</Text>
-      <MyButton onPress={() => navigation.navigate('Configs')} title="Ir para configurações"/>
+      <Text style={styles.title}>Tela de configuracoes.</Text>
       <Text>
         by <Text style={styles.otherText}>zk</Text>
       </Text>
