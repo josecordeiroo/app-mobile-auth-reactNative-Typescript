@@ -4,9 +4,10 @@ import { AppStack } from "./AppStack";
 import { AuthStack } from "./AuthStack";
 
 export function Router() {
+  const auth = true
   return (
     <NavigationContainer>
-      <AppStack/>
+      {auth ? <AppStack/> : <AuthStack/>}
     </NavigationContainer>
   );
 }
